@@ -1,18 +1,21 @@
-<html>
+<html lang="en" ng-app="r2r">
 <head>
     <title>Repeat To Remember</title>
     <link rel="stylesheet" type="text/css" href="css/r2r.css"/>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.0/angular.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.0/angular-route.js"></script>
+    <script src="controllers.js"></script>
 </head>
-<body>
+<body ng-controller="R2RController">
 <div class="container">
     <div>
-        <input class="question" type="text" placeholder="Question"/>
+        <input class="question" type="text" placeholder="Question" ng-model="question"/>
     </div>
     <div>
-        <input class="answer" type="answer" placeholder="Answer"/>
+        <input class="answer" type="answer" placeholder="Answer" ng-model="answer"/>
     </div>
     <div class="button">
-        <a class="plain" href="">post</a>
+        <a class="plain" href="" ng-click="saveItem()">post</a>
     </div>
 </div>
 </body>

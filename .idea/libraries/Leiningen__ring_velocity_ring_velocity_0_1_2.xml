@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="Leiningen: ring.velocity:ring.velocity:0.1.2">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/ring/velocity/ring.velocity/0.1.2/ring.velocity-0.1.2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
