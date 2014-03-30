@@ -7,8 +7,8 @@
     <file path="/project.clj" changelist="2d375cc0-f539-4fbf-9b82-3d7f8d6f93c1" time="1396101887036" ignored="false" />
     <file path="/handler.clj" changelist="2d375cc0-f539-4fbf-9b82-3d7f8d6f93c1" time="1396184640128" ignored="false" />
     <file path="/controllers.js" changelist="2d375cc0-f539-4fbf-9b82-3d7f8d6f93c1" time="1396166048341" ignored="false" />
-    <file path="/index.html" changelist="2d375cc0-f539-4fbf-9b82-3d7f8d6f93c1" time="1396107639362" ignored="false" />
-    <file path="/r2r.css" changelist="2d375cc0-f539-4fbf-9b82-3d7f8d6f93c1" time="1396106582128" ignored="false" />
+    <file path="/index.html" changelist="2d375cc0-f539-4fbf-9b82-3d7f8d6f93c1" time="1396187223398" ignored="false" />
+    <file path="/r2r.css" changelist="2d375cc0-f539-4fbf-9b82-3d7f8d6f93c1" time="1396187180874" ignored="false" />
     <file path="$PROJECT_DIR$/../pms/resources/welcome.vm" changelist="2d375cc0-f539-4fbf-9b82-3d7f8d6f93c1" time="1396106858766" ignored="false" />
     <file path="/r2r-controller.clj" changelist="2d375cc0-f539-4fbf-9b82-3d7f8d6f93c1" time="1396166488227" ignored="false" />
     <file path="/mongo.clj" changelist="2d375cc0-f539-4fbf-9b82-3d7f8d6f93c1" time="1396186191557" ignored="false" />
@@ -110,10 +110,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="mongo.clj" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="mongo.clj" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/r2r/db/mongo.clj">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="17" selection-start="201" selection-end="201" vertical-scroll-proportion="0.19538671">
+            <state line="8" column="17" selection-start="201" selection-end="201" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -128,10 +128,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/resources/public/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="53" selection-start="737" selection-end="737" vertical-scroll-proportion="0.0">
+            <state line="14" column="106" selection-start="678" selection-end="678" vertical-scroll-proportion="0.35492957">
               <folding />
             </state>
           </provider>
@@ -140,7 +140,7 @@
       <file leaf-file-name="r2r.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/public/css/r2r.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="24" selection-start="270" selection-end="270" vertical-scroll-proportion="0.0">
+            <state line="16" column="24" selection-start="261" selection-end="261" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -157,13 +157,13 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/project.clj" />
-        <option value="$PROJECT_DIR$/resources/public/css/r2r.css" />
-        <option value="$PROJECT_DIR$/resources/public/index.html" />
         <option value="$PROJECT_DIR$/resources/public/controllers.js" />
         <option value="$PROJECT_DIR$/src/r2r/controller/r2r-controller.clj" />
         <option value="$PROJECT_DIR$/src/r2r/handler.clj" />
         <option value="$PROJECT_DIR$/src/r2r/controller.clj" />
         <option value="$PROJECT_DIR$/src/r2r/db/mongo.clj" />
+        <option value="$PROJECT_DIR$/resources/public/css/r2r.css" />
+        <option value="$PROJECT_DIR$/resources/public/index.html" />
       </list>
     </option>
   </component>
@@ -584,20 +584,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/public/css/r2r.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="24" selection-start="270" selection-end="270" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/public/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="53" selection-start="737" selection-end="737" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/r2r/core.clj">
       <provider selected="true" editor-type-id="text-editor">
         <state line="5" column="10" selection-start="88" selection-end="88" vertical-scroll-proportion="0.0">
@@ -626,6 +612,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/r2r/db/mongo.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="17" selection-start="201" selection-end="201" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/r2r/controller.clj">
       <provider selected="true" editor-type-id="text-editor">
         <state line="6" column="39" selection-start="217" selection-end="217" vertical-scroll-proportion="0.0">
@@ -633,9 +626,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/r2r/db/mongo.clj">
+    <entry file="file://$PROJECT_DIR$/resources/public/css/r2r.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="17" selection-start="201" selection-end="201" vertical-scroll-proportion="0.19538671">
+        <state line="16" column="24" selection-start="261" selection-end="261" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/public/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="106" selection-start="678" selection-end="678" vertical-scroll-proportion="0.35492957">
           <folding />
         </state>
       </provider>
