@@ -3,10 +3,12 @@
   (:require [compojure.handler :as handler]
             [ring.middleware.json :as middleware]
             [compojure.route :as route]
-            [ring.util.response :as response]))
+            [ring.util.response :as response]
+            [r2r.controller :as r2r-cont]))
 
 
 (defroutes app-routes
+  (POST "/learnings" {params :params} (r2r-cont/add-learning params))
   (route/resources "/")
 ;  Serve index.html as the default root html file.
   (GET ["/:filename" :filename #".*"] [filename]
