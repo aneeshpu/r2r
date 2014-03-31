@@ -142,7 +142,7 @@
       <file leaf-file-name="core_test.clj" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test/r2r/core_test.clj">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="102" selection-start="473" selection-end="473" vertical-scroll-proportion="0.29308006">
+            <state line="5" column="0" selection-start="139" selection-end="139" vertical-scroll-proportion="0.12211669">
               <folding />
             </state>
           </provider>
@@ -617,7 +617,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test/r2r/core_test.clj">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="102" selection-start="473" selection-end="473" vertical-scroll-proportion="0.29308006">
+        <state line="5" column="0" selection-start="139" selection-end="139" vertical-scroll-proportion="0.12211669">
           <folding />
         </state>
       </provider>
