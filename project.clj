@@ -8,6 +8,7 @@
                  [ring-mock "0.1.5"]
                  [com.novemberain/monger "1.7.0"]
                  [ring/ring-json "0.2.0"]]
+  :dev-dependencies [[clojure.contrib.mock]]
   :plugins [[lein-ring "0.8.10"]]
   :ring {:handler r2r.handler/app}
   :main ^:skip-aot r2r.core
