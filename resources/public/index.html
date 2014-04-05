@@ -20,16 +20,11 @@
 
     </ul>
 </nav>
+
 <div class="container">
-    <div>
-        <input class="question r2r-font" type="text" placeholder="Question" ng-model="question"/>
-    </div>
-    <div>
-        <textarea class="answer r2r-font" type="answer" placeholder="Answer" ng-model="answer"></textarea>
-    </div>
-    <div class="button">
-        <a class="plain" href="" ng-click="saveItem()">post</a>
+    <div ng-view>
     </div>
 </div>
+
 </body>
 </html>
