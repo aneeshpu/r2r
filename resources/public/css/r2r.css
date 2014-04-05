@@ -42,3 +42,31 @@
     text-decoration: none;
     color: white;
 }
+
+.menu-item {
+    float:left;
+    padding-right: 10px;
+}
+
+.menu {
+    list-style:none;
+    height:10px;
+
+}
+
+.nav-link {
+    text-decoration: none;
+}
+
+.nav-link:hover{
+    background: #D3D3D3;
+}
+
+.nav-link:hover ~ ul{
+    display: block;
+}
+
+.sub-menu {
+    padding: 1px 5px;
+    display:none;
+}

@@ -11,4 +11,11 @@
 
 (defn insert [documents learning]
   (connect-db)
-  (monger-coll/insert documents (assoc learning :id (ObjectId.))))
+  (let [learning-id (ObjectId.)]
+    (monger-coll/insert documents (assoc learning :id learning-id))))
+
+(defn insert-revision-backlog [documents learning-id]
+  (println "Inside insert-revision-backglo")
+  (connect-db)
+  (monger-coll/insert documents (assoc {:foo "bar"} :id (ObjectId.)))
+  "fucked")
