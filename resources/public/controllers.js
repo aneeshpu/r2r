@@ -5,7 +5,11 @@ r2r.config(['$routeProvider', function ($routeProvider) {
     $routeProvider.when('/New', {
         templateUrl: 'partials/new-learning.html',
         controller: 'R2RController'
-    }).otherwise({
+    }).when('/All', {
+            templateUrl: 'partials/all-learnings.html',
+            controller: 'R2RController'
+        })
+        .otherwise({
             redirectTo: '/New'
         });
 
