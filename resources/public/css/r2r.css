@@ -51,11 +51,14 @@
 .menu {
     list-style:none;
     height:10px;
+    padding: 0 350 0 350;
 
 }
 
 .nav-link {
     text-decoration: none;
+    font-family: Sans serif;
+    color:black;
 }
 
 .nav-link:hover{
