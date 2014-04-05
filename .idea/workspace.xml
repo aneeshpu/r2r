@@ -7,7 +7,7 @@
     <file path="/project.clj" changelist="2d375cc0-f539-4fbf-9b82-3d7f8d6f93c1" time="1396253445200" ignored="false" />
     <file path="/handler.clj" changelist="2d375cc0-f539-4fbf-9b82-3d7f8d6f93c1" time="1396184640128" ignored="false" />
     <file path="/controllers.js" changelist="2d375cc0-f539-4fbf-9b82-3d7f8d6f93c1" time="1396702162323" ignored="false" />
-    <file path="/index.html" changelist="2d375cc0-f539-4fbf-9b82-3d7f8d6f93c1" time="1396702225832" ignored="false" />
+    <file path="/index.html" changelist="2d375cc0-f539-4fbf-9b82-3d7f8d6f93c1" time="1396702260471" ignored="false" />
     <file path="/r2r.css" changelist="2d375cc0-f539-4fbf-9b82-3d7f8d6f93c1" time="1396701281787" ignored="false" />
     <file path="$PROJECT_DIR$/../pms/resources/welcome.vm" changelist="2d375cc0-f539-4fbf-9b82-3d7f8d6f93c1" time="1396106858766" ignored="false" />
     <file path="/r2r-controller.clj" changelist="2d375cc0-f539-4fbf-9b82-3d7f8d6f93c1" time="1396166488227" ignored="false" />
@@ -135,7 +135,7 @@
       <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/resources/public/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="50" selection-start="721" selection-end="721" vertical-scroll-proportion="0.38426965">
+            <state line="17" column="43" selection-start="618" selection-end="618" vertical-scroll-proportion="0.3438202">
               <folding />
             </state>
           </provider>
@@ -679,7 +679,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/public/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="50" selection-start="721" selection-end="721" vertical-scroll-proportion="0.38426965">
+        <state line="17" column="43" selection-start="618" selection-end="618" vertical-scroll-proportion="0.3438202">
           <folding />
         </state>
       </provider>
