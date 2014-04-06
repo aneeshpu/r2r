@@ -2,16 +2,17 @@ var r2r = angular.module('r2r', ['ngRoute']);
 
 r2r.config(['$routeProvider', function ($routeProvider) {
 
-    $routeProvider.when('/New', {
+    $routeProvider.when('/new', {
         templateUrl: 'partials/new-learning.html',
         controller: 'R2RController'
-    }).when('/All', {
+    }).when('/all', {
             templateUrl: 'partials/all-learnings.html',
             controller: 'R2RController'
         })
-        .otherwise({
+    /*    .otherwise({
             redirectTo: '/New'
-        });
+        })*/
+    ;
 
 }]);
 
@@ -23,5 +24,9 @@ r2r.controller('R2RController', function ($scope, $http, $location) {
 
         });
 
+    }
+
+    $scope.allLearnings = function(){
+        $location.path("all");
     }
 });

@@ -6,8 +6,8 @@
     <ignored path=".idea/workspace.xml" />
     <file path="/project.clj" changelist="2d375cc0-f539-4fbf-9b82-3d7f8d6f93c1" time="1396253445200" ignored="false" />
     <file path="/handler.clj" changelist="2d375cc0-f539-4fbf-9b82-3d7f8d6f93c1" time="1396184640128" ignored="false" />
-    <file path="/controllers.js" changelist="2d375cc0-f539-4fbf-9b82-3d7f8d6f93c1" time="1396702162323" ignored="false" />
-    <file path="/index.html" changelist="2d375cc0-f539-4fbf-9b82-3d7f8d6f93c1" time="1396702260471" ignored="false" />
+    <file path="/controllers.js" changelist="2d375cc0-f539-4fbf-9b82-3d7f8d6f93c1" time="1396702381270" ignored="false" />
+    <file path="/index.html" changelist="2d375cc0-f539-4fbf-9b82-3d7f8d6f93c1" time="1396783307473" ignored="false" />
     <file path="/r2r.css" changelist="2d375cc0-f539-4fbf-9b82-3d7f8d6f93c1" time="1396701281787" ignored="false" />
     <file path="$PROJECT_DIR$/../pms/resources/welcome.vm" changelist="2d375cc0-f539-4fbf-9b82-3d7f8d6f93c1" time="1396106858766" ignored="false" />
     <file path="/r2r-controller.clj" changelist="2d375cc0-f539-4fbf-9b82-3d7f8d6f93c1" time="1396166488227" ignored="false" />
@@ -117,7 +117,7 @@
       <file leaf-file-name="controllers.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/public/controllers.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="38" selection-start="343" selection-end="343" vertical-scroll-proportion="0.0">
+            <state line="4" column="29" selection-start="135" selection-end="135" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -187,8 +187,8 @@
         <option value="$PROJECT_DIR$/src/r2r/db/mongo.clj" />
         <option value="$PROJECT_DIR$/resources/public/css/r2r.css" />
         <option value="$PROJECT_DIR$/resources/public/partials/new-learning.html" />
-        <option value="$PROJECT_DIR$/resources/public/controllers.js" />
         <option value="$PROJECT_DIR$/resources/public/partials/all-learnings.html" />
+        <option value="$PROJECT_DIR$/resources/public/controllers.js" />
         <option value="$PROJECT_DIR$/resources/public/index.html" />
       </list>
     </option>
@@ -672,7 +672,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/public/controllers.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="38" selection-start="343" selection-end="343" vertical-scroll-proportion="0.0">
+        <state line="4" column="29" selection-start="135" selection-end="135" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
