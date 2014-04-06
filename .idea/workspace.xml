@@ -5,19 +5,20 @@
     <ignored path="r2r.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/project.clj" changelist="2d375cc0-f539-4fbf-9b82-3d7f8d6f93c1" time="1396253445200" ignored="false" />
-    <file path="/handler.clj" changelist="2d375cc0-f539-4fbf-9b82-3d7f8d6f93c1" time="1396184640128" ignored="false" />
-    <file path="/controllers.js" changelist="2d375cc0-f539-4fbf-9b82-3d7f8d6f93c1" time="1396702381270" ignored="false" />
-    <file path="/index.html" changelist="2d375cc0-f539-4fbf-9b82-3d7f8d6f93c1" time="1396783307473" ignored="false" />
-    <file path="/r2r.css" changelist="2d375cc0-f539-4fbf-9b82-3d7f8d6f93c1" time="1396701281787" ignored="false" />
+    <file path="/handler.clj" changelist="2d375cc0-f539-4fbf-9b82-3d7f8d6f93c1" time="1396792067891" ignored="false" />
+    <file path="/controllers.js" changelist="2d375cc0-f539-4fbf-9b82-3d7f8d6f93c1" time="1396783448417" ignored="false" />
+    <file path="/index.html" changelist="2d375cc0-f539-4fbf-9b82-3d7f8d6f93c1" time="1396794658308" ignored="false" />
+    <file path="/r2r.css" changelist="2d375cc0-f539-4fbf-9b82-3d7f8d6f93c1" time="1396793608593" ignored="false" />
     <file path="$PROJECT_DIR$/../pms/resources/welcome.vm" changelist="2d375cc0-f539-4fbf-9b82-3d7f8d6f93c1" time="1396106858766" ignored="false" />
     <file path="/r2r-controller.clj" changelist="2d375cc0-f539-4fbf-9b82-3d7f8d6f93c1" time="1396166488227" ignored="false" />
-    <file path="/mongo.clj" changelist="2d375cc0-f539-4fbf-9b82-3d7f8d6f93c1" time="1396268995429" ignored="false" />
+    <file path="/mongo.clj" changelist="2d375cc0-f539-4fbf-9b82-3d7f8d6f93c1" time="1396784448200" ignored="false" />
     <file path="$PROJECT_DIR$/../pms/src/pms/db/mongo.clj" changelist="2d375cc0-f539-4fbf-9b82-3d7f8d6f93c1" time="1396185944598" ignored="false" />
-    <file path="/controller.clj" changelist="2d375cc0-f539-4fbf-9b82-3d7f8d6f93c1" time="1396268043634" ignored="false" />
+    <file path="/controller.clj" changelist="2d375cc0-f539-4fbf-9b82-3d7f8d6f93c1" time="1396785124687" ignored="false" />
     <file path="/core.clj" changelist="2d375cc0-f539-4fbf-9b82-3d7f8d6f93c1" time="1396251140548" ignored="false" />
-    <file path="/core_test.clj" changelist="2d375cc0-f539-4fbf-9b82-3d7f8d6f93c1" time="1396267678259" ignored="false" />
+    <file path="/core_test.clj" changelist="2d375cc0-f539-4fbf-9b82-3d7f8d6f93c1" time="1396784067768" ignored="false" />
     <file path="/new-learning.html" changelist="2d375cc0-f539-4fbf-9b82-3d7f8d6f93c1" time="1396702077070" ignored="false" />
-    <file path="/all-learnings.html" changelist="2d375cc0-f539-4fbf-9b82-3d7f8d6f93c1" time="1396702192036" ignored="false" />
+    <file path="/all-learnings.html" changelist="2d375cc0-f539-4fbf-9b82-3d7f8d6f93c1" time="1396792783240" ignored="false" />
+    <file path="/mongo_test.clj" changelist="2d375cc0-f539-4fbf-9b82-3d7f8d6f93c1" time="1396784653915" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,37 +79,37 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="core.clj" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/r2r/core.clj">
+      <file leaf-file-name="handler.clj" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/r2r/handler.clj">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="6" selection-start="125" selection-end="125" vertical-scroll-proportion="0.0">
+            <state line="28" column="47" selection-start="879" selection-end="879" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="core.clj" pinned="false" current="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/clojure/clojure/1.5.1/clojure-1.5.1.jar!/clojure/core.clj">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="6924" column="0" selection-start="231405" selection-end="231405" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="project.clj" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/project.clj">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="10" column="42" selection-start="470" selection-end="470" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="handler.clj" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/r2r/handler.clj">
+        <entry file="jar://$MAVEN_REPOSITORY$/compojure/compojure/1.1.6/compojure-1.1.6.jar!/compojure/handler.clj">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="49" selection-start="337" selection-end="337" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="controller.clj" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/r2r/controller.clj">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="29" selection-start="132" selection-end="132" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="mongo.clj" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/r2r/db/mongo.clj">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="9" selection-start="574" selection-end="574" vertical-scroll-proportion="0.0">
+            <state line="27" column="6" selection-start="715" selection-end="715" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -117,16 +118,7 @@
       <file leaf-file-name="controllers.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/public/controllers.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="29" selection-start="135" selection-end="135" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="all-learnings.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/public/partials/all-learnings.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="30" selection-start="30" selection-end="30" vertical-scroll-proportion="-0.0">
+            <state line="30" column="35" selection-start="810" selection-end="810" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -135,16 +127,7 @@
       <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/resources/public/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="43" selection-start="618" selection-end="618" vertical-scroll-proportion="0.3438202">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="new-learning.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/public/partials/new-learning.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="78" selection-start="311" selection-end="311" vertical-scroll-proportion="-6.0">
+            <state line="23" column="37" selection-start="984" selection-end="984" vertical-scroll-proportion="0.46516854">
               <folding />
             </state>
           </provider>
@@ -153,7 +136,25 @@
       <file leaf-file-name="r2r.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/public/css/r2r.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="41" column="30" selection-start="619" selection-end="619" vertical-scroll-proportion="0.0">
+            <state line="30" column="79" selection-start="478" selection-end="478" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="new-learning.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/public/partials/new-learning.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="4" column="30" selection-start="154" selection-end="154" vertical-scroll-proportion="-2.6666667">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="all-learnings.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/public/partials/all-learnings.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="7" column="35" selection-start="253" selection-end="253" vertical-scroll-proportion="-4.6666665">
               <folding />
             </state>
           </provider>
@@ -162,7 +163,7 @@
       <file leaf-file-name="core_test.clj" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/r2r/core_test.clj">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="12" selection-start="866" selection-end="866" vertical-scroll-proportion="0.0">
+            <state line="3" column="30" selection-start="128" selection-end="128" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -179,16 +180,17 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/src/r2r/controller/r2r-controller.clj" />
-        <option value="$PROJECT_DIR$/src/r2r/handler.clj" />
         <option value="$PROJECT_DIR$/src/r2r/core.clj" />
         <option value="$PROJECT_DIR$/project.clj" />
         <option value="$PROJECT_DIR$/test/r2r/core_test.clj" />
-        <option value="$PROJECT_DIR$/src/r2r/controller.clj" />
         <option value="$PROJECT_DIR$/src/r2r/db/mongo.clj" />
-        <option value="$PROJECT_DIR$/resources/public/css/r2r.css" />
-        <option value="$PROJECT_DIR$/resources/public/partials/new-learning.html" />
-        <option value="$PROJECT_DIR$/resources/public/partials/all-learnings.html" />
+        <option value="$PROJECT_DIR$/test/r2r/mongo_test.clj" />
+        <option value="$PROJECT_DIR$/src/r2r/controller.clj" />
+        <option value="$PROJECT_DIR$/src/r2r/handler.clj" />
         <option value="$PROJECT_DIR$/resources/public/controllers.js" />
+        <option value="$PROJECT_DIR$/resources/public/partials/all-learnings.html" />
+        <option value="$PROJECT_DIR$/resources/public/partials/new-learning.html" />
+        <option value="$PROJECT_DIR$/resources/public/css/r2r.css" />
         <option value="$PROJECT_DIR$/resources/public/index.html" />
       </list>
     </option>
@@ -222,8 +224,8 @@
       <showLibraryContents />
       <hideEmptyPackages />
       <abbreviatePackageNames />
-      <autoscrollToSource />
-      <autoscrollFromSource />
+      <autoscrollToSource ProjectPane="true" />
+      <autoscrollFromSource ProjectPane="true" />
       <sortByType />
     </navigator>
     <panes>
@@ -235,6 +237,90 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="r2r" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="r2r" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Leiningen: org.clojure:clojure:1.5.1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="clojure-1.5.1.jar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="r2r" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Leiningen: org.clojure:clojure:1.5.1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="clojure-1.5.1.jar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="clojure" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="r2r" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Leiningen: compojure:compojure:1.1.6" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="compojure-1.1.6.jar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="r2r" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Leiningen: compojure:compojure:1.1.6" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="compojure-1.1.6.jar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="compojure" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -342,6 +428,28 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="partials" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="r2r" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="r2r" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -572,27 +680,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/r2r/handler.clj">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="50" selection-start="600" selection-end="600" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/public/controllers.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="27" selection-start="207" selection-end="207" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/public/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="51" selection-start="735" selection-end="735" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/public/css/r2r.css">
       <provider selected="true" editor-type-id="text-editor">
         <state line="19" column="24" selection-start="270" selection-end="270" vertical-scroll-proportion="0.0">
@@ -607,20 +694,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/r2r/handler.clj">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="49" selection-start="337" selection-end="337" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project.clj">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="42" selection-start="470" selection-end="470" vertical-scroll-proportion="0.24423338">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/r2r/core.clj">
       <provider selected="true" editor-type-id="text-editor">
         <state line="8" column="6" selection-start="125" selection-end="125" vertical-scroll-proportion="0.0">
@@ -628,58 +701,93 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/r2r/core_test.clj">
+    <entry file="file://$PROJECT_DIR$/src/r2r/db/mongo.clj">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="12" selection-start="866" selection-end="866" vertical-scroll-proportion="0.0">
+        <state line="23" column="6" selection-start="616" selection-end="616" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/compojure/compojure/1.1.6/compojure-1.1.6.jar!/compojure/core.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="121" column="10" selection-start="3805" selection-end="3805" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/r2r/controller.clj">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="29" selection-start="132" selection-end="132" vertical-scroll-proportion="0.0">
+        <state line="11" column="9" selection-start="267" selection-end="267" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/r2r/db/mongo.clj">
+    <entry file="file://$PROJECT_DIR$/test/r2r/core_test.clj">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="9" selection-start="574" selection-end="574" vertical-scroll-proportion="0.0">
+        <state line="3" column="30" selection-start="128" selection-end="128" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/public/css/r2r.css">
+    <entry file="jar://$MAVEN_REPOSITORY$/compojure/compojure/1.1.6/compojure-1.1.6.jar!/compojure/handler.clj">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="30" selection-start="619" selection-end="619" vertical-scroll-proportion="0.0">
+        <state line="27" column="6" selection-start="715" selection-end="715" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/public/partials/new-learning.html">
+    <entry file="file://$PROJECT_DIR$/project.clj">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="78" selection-start="311" selection-end="311" vertical-scroll-proportion="-6.0">
+        <state line="10" column="42" selection-start="470" selection-end="470" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/r2r/handler.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="47" selection-start="879" selection-end="879" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/public/partials/all-learnings.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="30" selection-start="30" selection-end="30" vertical-scroll-proportion="0.0">
+        <state line="7" column="35" selection-start="253" selection-end="253" vertical-scroll-proportion="-4.6666665">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/clojure/clojure/1.5.1/clojure-1.5.1.jar!/clojure/core.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6924" column="0" selection-start="231405" selection-end="231405" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/public/controllers.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="29" selection-start="135" selection-end="135" vertical-scroll-proportion="0.0">
+        <state line="30" column="35" selection-start="810" selection-end="810" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/public/partials/new-learning.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="30" selection-start="154" selection-end="154" vertical-scroll-proportion="-2.6666667">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/public/css/r2r.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="79" selection-start="478" selection-end="478" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/public/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="43" selection-start="618" selection-end="618" vertical-scroll-proportion="0.3438202">
+        <state line="23" column="37" selection-start="984" selection-end="984" vertical-scroll-proportion="0.46516854">
           <folding />
         </state>
       </provider>

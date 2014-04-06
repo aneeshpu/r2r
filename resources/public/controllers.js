@@ -27,6 +27,10 @@ r2r.controller('R2RController', function ($scope, $http, $location) {
     }
 
     $scope.allLearnings = function(){
+        $http.get("/learnings").success(function (data){
+            $scope.learnings = data;
+        });
+
         $location.path("all");
     }
 });

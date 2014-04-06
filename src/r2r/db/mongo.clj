@@ -19,3 +19,7 @@
   (connect-db)
   (monger-coll/insert documents (assoc {:foo "bar"} :id (ObjectId.)))
   "fucked")
+
+(defn get-learnings [documents]
+  (connect-db)
+  (monger-coll/find-maps documents))

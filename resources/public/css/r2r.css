@@ -1,5 +1,5 @@
-.r2r-font{
-    font-family: Cousine, sans-serif;
+.learning-input-font {
+    font-family: Cousine, Sans-serif;
     color: black;
     font-size: 25px;
 }
@@ -51,8 +51,6 @@
 .menu {
     list-style:none;
     height:10px;
-    padding: 0 350 0 350;
-
 }
 
 .nav-link {
@@ -73,4 +71,26 @@
     padding: 1px 5px;
     display:none;
     list-style:none;
+}
+
+.no-bullet {
+    list-style:none;
+}
+
+.learning{
+    margin: 50 0 50 0;
+}
+
+.q-list {
+    font-size: 50px;
+}
+
+.a-list {
+    font-size: 25px;
+}
+
+.nav-bar {
+    height: 30px;
+    background: #e7e7e7;
+    margin-bottom:10px;
 }

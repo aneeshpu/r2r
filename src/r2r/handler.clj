@@ -9,6 +9,7 @@
 
 (defroutes app-routes
   (POST "/learnings" {params :params} (r2r-cont/add-learning params))
+  (GET "/learnings" [] (r2r-cont/get-learnings))
   (route/resources "/")
 ;  Serve index.html as the default root html file.
   (GET ["/:filename" :filename #".*"] [filename]
@@ -24,10 +25,22 @@
         {:body {:message (.getMessage e)}
          :status 500}))))
 
+(defn remove-object-id [handler]
+  (fn [request]
+    (let [res (handler request)]
+      (if (and ((complement nil?) res) (map? res) (seq? (:body res)))
+        (assoc res :body (map #(dissoc % :_id :id) (:body res)))
+        res))))
 
-(def app
+
+  (comment if (and ((complement nil?) res) (map? res))
+    (assoc (dissoc res :_id) :id (.toString (:id res)))
+    res)
+
+  (def app
   (->
   (handler/site app-routes)
+  (remove-object-id)
   (middleware/wrap-json-params)
   (handle-exception)
   (middleware/wrap-json-response)))

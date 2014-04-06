@@ -7,3 +7,7 @@
 
 (defn add-learning [learning]
   (add-revision-backlog (r2r-db/insert "learnings" learning)))
+
+
+(defn get-learnings []
+  (r2r-db/get-learnings "learnings"))

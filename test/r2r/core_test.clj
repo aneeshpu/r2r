@@ -15,3 +15,4 @@
                                                       (is (= "revision" documents)))}
 
     #(add-learning {:question "test question" :answer "test answer"})))
+
