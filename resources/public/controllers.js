@@ -20,14 +20,14 @@ r2r.controller('R2RController', function ($scope, $http, $location) {
 
 
     $scope.saveItem = function () {
-        $http.post("/learnings", {"question": $scope.question, "answer": $scope.answer}).success(function (data) {
+        $http.post("./learnings", {"question": $scope.question, "answer": $scope.answer}).success(function (data) {
 
         });
 
     }
 
     $scope.allLearnings = function(){
-        $http.get("/learnings").success(function (data){
+        $http.get("./learnings").success(function (data){
             $scope.learnings = data;
         });
 

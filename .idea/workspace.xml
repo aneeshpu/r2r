@@ -115,10 +115,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="controllers.js" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="controllers.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/resources/public/controllers.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="30" column="35" selection-start="810" selection-end="810" vertical-scroll-proportion="0.0">
+            <state line="26" column="20" selection-start="679" selection-end="679" vertical-scroll-proportion="0.5103599">
               <folding />
             </state>
           </provider>
@@ -133,10 +133,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="r2r.css" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="r2r.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/public/css/r2r.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="83" column="39" selection-start="1170" selection-end="1170" vertical-scroll-proportion="0.568157">
+            <state line="73" column="27" selection-start="1011" selection-end="1011" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -187,11 +187,11 @@
         <option value="$PROJECT_DIR$/test/r2r/mongo_test.clj" />
         <option value="$PROJECT_DIR$/src/r2r/controller.clj" />
         <option value="$PROJECT_DIR$/src/r2r/handler.clj" />
-        <option value="$PROJECT_DIR$/resources/public/controllers.js" />
         <option value="$PROJECT_DIR$/resources/public/partials/new-learning.html" />
         <option value="$PROJECT_DIR$/resources/public/index.html" />
         <option value="$PROJECT_DIR$/resources/public/partials/all-learnings.html" />
         <option value="$PROJECT_DIR$/resources/public/css/r2r.css" />
+        <option value="$PROJECT_DIR$/resources/public/controllers.js" />
       </list>
     </option>
   </component>
@@ -689,12 +689,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/r2r/core.clj">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/r2r/core.clj">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="6" selection-start="125" selection-end="125" vertical-scroll-proportion="0.0" />
+        <state line="8" column="6" selection-start="125" selection-end="125" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/r2r/db/mongo.clj">
@@ -751,13 +755,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/public/controllers.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="35" selection-start="810" selection-end="810" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/public/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="14" column="34" selection-start="689" selection-end="689" vertical-scroll-proportion="-9.333333">
@@ -781,7 +778,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/public/css/r2r.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="83" column="39" selection-start="1170" selection-end="1170" vertical-scroll-proportion="0.568157">
+        <state line="73" column="27" selection-start="1011" selection-end="1011" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/public/controllers.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="20" selection-start="679" selection-end="679" vertical-scroll-proportion="0.5103599">
           <folding />
         </state>
       </provider>
