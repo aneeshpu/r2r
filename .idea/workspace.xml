@@ -8,7 +8,7 @@
     <file path="/handler.clj" changelist="2d375cc0-f539-4fbf-9b82-3d7f8d6f93c1" time="1396792067891" ignored="false" />
     <file path="/controllers.js" changelist="2d375cc0-f539-4fbf-9b82-3d7f8d6f93c1" time="1396783448417" ignored="false" />
     <file path="/index.html" changelist="2d375cc0-f539-4fbf-9b82-3d7f8d6f93c1" time="1396794658308" ignored="false" />
-    <file path="/r2r.css" changelist="2d375cc0-f539-4fbf-9b82-3d7f8d6f93c1" time="1396868000011" ignored="false" />
+    <file path="/r2r.css" changelist="2d375cc0-f539-4fbf-9b82-3d7f8d6f93c1" time="1396884291703" ignored="false" />
     <file path="$PROJECT_DIR$/../pms/resources/welcome.vm" changelist="2d375cc0-f539-4fbf-9b82-3d7f8d6f93c1" time="1396106858766" ignored="false" />
     <file path="/r2r-controller.clj" changelist="2d375cc0-f539-4fbf-9b82-3d7f8d6f93c1" time="1396166488227" ignored="false" />
     <file path="/mongo.clj" changelist="2d375cc0-f539-4fbf-9b82-3d7f8d6f93c1" time="1396784448200" ignored="false" />
@@ -136,7 +136,7 @@
       <file leaf-file-name="r2r.css" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/resources/public/css/r2r.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="98" column="21" selection-start="1274" selection-end="1274" vertical-scroll-proportion="0.94111234">
+            <state line="83" column="39" selection-start="1170" selection-end="1170" vertical-scroll-proportion="0.568157">
               <folding />
             </state>
           </provider>
@@ -145,7 +145,7 @@
       <file leaf-file-name="new-learning.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/public/partials/new-learning.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="30" selection-start="154" selection-end="154" vertical-scroll-proportion="0.0">
+            <state line="4" column="30" selection-start="154" selection-end="154" vertical-scroll-proportion="-2.6666667">
               <folding />
             </state>
           </provider>
@@ -154,7 +154,7 @@
       <file leaf-file-name="all-learnings.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/public/partials/all-learnings.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="21" selection-start="21" selection-end="34" vertical-scroll-proportion="-0.0">
+            <state line="2" column="26" selection-start="106" selection-end="106" vertical-scroll-proportion="-1.3333334">
               <folding />
             </state>
           </provider>
@@ -751,13 +751,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/public/partials/new-learning.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="30" selection-start="154" selection-end="154" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/public/controllers.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="30" column="35" selection-start="810" selection-end="810" vertical-scroll-proportion="0.0">
@@ -772,16 +765,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/resources/public/partials/new-learning.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="30" selection-start="154" selection-end="154" vertical-scroll-proportion="-2.6666667">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/resources/public/partials/all-learnings.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="21" selection-start="21" selection-end="34" vertical-scroll-proportion="-0.0">
+        <state line="2" column="26" selection-start="106" selection-end="106" vertical-scroll-proportion="-1.3333334">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/public/css/r2r.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="98" column="21" selection-start="1274" selection-end="1274" vertical-scroll-proportion="0.94111234">
+        <state line="83" column="39" selection-start="1170" selection-end="1170" vertical-scroll-proportion="0.568157">
           <folding />
         </state>
       </provider>
