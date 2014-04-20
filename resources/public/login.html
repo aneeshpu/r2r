@@ -17,27 +17,21 @@
 </head>
 <body ng-controller="R2RController">
 
-ppa pulaayaadi mone ringe ninte ammede poottil kunna
 
 <div class="container">
-    <nav class="navbar navbar-default">
-        <div class="container-fluid">
-            <ul class="nav navbar-nav">
-                <!--
-                        <li class="menu-item sub-menu-container">
-                            <a href="" class="nav-link">Learnings</a>
+    <div class="login-panel">
 
-                        </li>
-                -->
-                <li class="menu-item"><a href="#new" class="nav-link">New</a></li>
-                <li class="menu-item"><a href="" class="nav-link" ng-click="allLearnings()">All</a></li>
-
-            </ul>
+        <div class="cred-container">
+            <input class="cred-box" type="text" name="login" placeholder="login"/>
         </div>
 
-    </nav>
+        <div class="cred-container">
+            <input class="cred-box" type="text" name="password" placeholder="password"/>
+        </div>
 
-    <div ng-view>
+        <div class="cred-container">
+            <a class="button plain login-button" href="#">login</a>
+        </div>
     </div>
 </div>
 

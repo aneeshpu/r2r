@@ -4,16 +4,19 @@
             [ring.middleware.json :as middleware]
             [compojure.route :as route]
             [ring.util.response :as response]
+            [cemerick.friend :as friend]
+            (cemerick.friend [workflows :as workflows]
+              [credentials :as creds])
             [r2r.controller :as r2r-cont]))
+
 
 
 (defroutes app-routes
   (POST "/learnings" {params :params} (r2r-cont/add-learning params))
-  (GET "/learnings" [] (r2r-cont/get-learnings))
+  (GET "/learnings" [] (friend/authorize #{::user} "Retrieve all learnings" (r2r-cont/get-learnings)))
+  (GET "/login" [] (response/redirect "/login.html"))
   (route/resources "/")
-;  Serve index.html as the default root html file.
-  (GET ["/:filename" :filename #".*"] [filename]
-    (response/file-response filename {:root "./public"})))
+  (GET "/" [] (response/redirect "/learnings")))
 
 
 ;Could the exception handling code be made a macro?
@@ -33,14 +36,22 @@
         res))))
 
 
-  (comment if (and ((complement nil?) res) (map? res))
-    (assoc (dissoc res :_id) :id (.toString (:id res)))
-    res)
+(comment if (and ((complement nil?) res) (map? res))
+  (assoc (dissoc res :_id) :id (.toString (:id res)))
+  res)
 
-  (def app
+
+(def users {"root" {:username "root"
+                    :password (creds/hash-bcrypt "admin_password")
+                    :roles #{::admin}}
+            "aneeshpu" {:username "aneeshpu"
+                        :password (creds/hash-bcrypt "user_password")
+                        :roles #{::user}}})
+(def app
   (->
-  (handler/site app-routes)
-  (remove-object-id)
-  (middleware/wrap-json-params)
-  (handle-exception)
-  (middleware/wrap-json-response)))
+    (handler/site (friend/authenticate app-routes {:credential-fn (partial creds/bcrypt-credential-fn users)
+                                                   :workflows [(workflows/interactive-form)]}))
+    (remove-object-id)
+    (middleware/wrap-json-params)
+    (handle-exception)
+    (middleware/wrap-json-response)))
