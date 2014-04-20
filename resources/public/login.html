@@ -19,20 +19,20 @@
 
 
 <div class="container">
-    <div class="login-panel">
-
-        <div class="cred-container">
-            <input class="cred-box" type="text" name="login" placeholder="login"/>
+    <form action="login" method="POST">
+        <div class="login-panel">
+            <div class="cred-container">
+                <input class="cred-box" type="text" name="username" placeholder="login"/>
+            </div>
+            <div class="cred-container">
+                <input class="cred-box" type="text" name="password" placeholder="password"/>
+            </div>
+            <div class="cred-container">
+                <input type="submit" class="button plain login-button" value="login"/>
+            </div>
         </div>
+    </form>
 
-        <div class="cred-container">
-            <input class="cred-box" type="text" name="password" placeholder="password"/>
-        </div>
-
-        <div class="cred-container">
-            <a class="button plain login-button" href="#">login</a>
-        </div>
-    </div>
 </div>
 
 </body>
