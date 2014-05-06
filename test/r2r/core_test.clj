@@ -4,7 +4,7 @@
             [r2r.db.mongo :as r2r-db]))
 
 (deftest saves-a-learning-in-db
-  (with-redefs-fn {#'r2r-db/insert (fn [documents learning]
+  (with-redefs-fn {#'r2r-db/insert (fn [documents learning user]
                                      (println "insied insert")
                                      (is (= "learnings" documents))
                                      (is (= {:question "test question" :answer "test answer"} learning))
@@ -14,5 +14,5 @@
                                                       (is (= 1234 learning-id))
                                                       (is (= "revision" documents)))}
 
-    #(add-learning {:question "test question" :answer "test answer"})))
+    #(add-learning {:question "test question" :answer "test answer"} "aneeshpu")))
 

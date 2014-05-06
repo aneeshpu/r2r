@@ -9,7 +9,7 @@
   (monger/set-db! (monger/get-db "r2r")))
 
 
-(defn insert [documents learning]
+(defn insert [documents learning user]
   (connect-db)
   (let [learning-id (ObjectId.)]
     (monger-coll/insert documents (assoc learning :id learning-id))))

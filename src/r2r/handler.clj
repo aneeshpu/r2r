@@ -12,11 +12,22 @@
 
 
 (defroutes app-routes
-  (POST "/learnings" {params :params} (r2r-cont/add-learning params))
-  (GET "/learnings" [] (friend/authorize #{::user} "Retrieve all learnings" (r2r-cont/get-learnings)))
-  (GET "/learnings-landing" [] (friend/authorize #{::user} "The learnings landing page" (response/redirect "index.html")))
+  (POST "/learnings" {params :params}
+    (friend/authorize #{::user}
+      (r2r-cont/add-learning params (:username (friend/current-authentication)))))
+
+  (GET "/learnings" []
+    (friend/authorize #{::user} "Retrieve all learnings"
+      (r2r-cont/get-learnings (:username (friend/current-authentication)))))
+
+  (GET "/learnings-landing" []
+    (friend/authorize #{::user} "The learnings landing page"
+      (response/redirect "index.html")))
+
   (GET "/login" [] (response/redirect "/login.html"))
+
   (route/resources "/")
+
   (GET "/" [] (response/redirect "/learnings-landing")))
 
 
